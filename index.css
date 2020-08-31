@@ -1,0 +1,190 @@
+html, body{
+	margin: 0;
+}
+#head{
+	width:828px;
+	background-color: #ededed;
+	margin: auto;
+	border-bottom: solid 1px #d3d3d3;
+}
+#wrapper{
+	width: 828px;
+	height: 1433px;
+	margin: auto;
+	background-color: #ededed;
+	padding: 20px 0;
+}
+#footer{
+	width: 828px;
+	height: 88px;
+    padding-bottom: 64px;
+	margin: 0 auto;
+	background-color: #ededed;
+	border-top: solid 1px #d3d3d3;
+	display: flex;
+	align-items: center;
+}
+.title{
+	overflow: hidden;
+	padding: 0 40px
+}
+.content1{
+	color: black;
+	margin-top: 35px;
+	float: left;
+	font-size: 26px;
+}
+.content2{
+	color: black;
+	margin-top: 10px;
+	float: right;
+	font-size: 20px;
+}
+.content2 ul{
+	list-style: none;
+}
+.content2 ul li{
+	display: inline-block;
+}
+.content2 ul li img{
+	height: 30px;
+	width: 30px;
+}
+.name{
+	overflow: hidden;
+}
+.name .icon{
+	height: 88px;
+	width: 88px;
+	/*text-align: center;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon1{
+	float: left;
+}
+.icon2{
+	float: right;
+}
+.icon1 img{
+	height: 30px;
+	width: 30px;
+
+}
+.icon2 img{
+	height: 30px;
+	width: 30px;
+
+}
+
+#footer input{
+	width: 610px;
+	height: 60px;
+	border: 0;
+	border-radius: 4px;
+}
+
+#footer .icon3{
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	/*margin-top: 20px;*/
+	/*margin-left: 20px;*/
+}
+#footer .icon4{
+	width: 80px;
+	height: 80px;
+	/*margin-top: 20px;*/
+}
+#footer .icon5{
+	width: 40px;
+	height: 40px;
+	/*margin-top: 20px;*/
+}
+
+.talk span::after{
+	content:'';
+	border: 8px solid #ffffff00;
+	border-right: 8px solid #fff;
+	position: absolute;
+	top: 30px;
+	left: -16px;
+
+
+} 
+
+.message_content{
+
+	margin-bottom: 40px;
+	padding: 0 20px;
+}
+.avatar{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	float: left;
+}
+.avatar img{
+	width: 100%;
+	height: 100%;
+}
+.message_content .talk_wrap{
+	margin: 0 10px;
+	min-height: 80px;
+	max-width: 500px;
+	display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: left;
+    font-size: 28px;
+    background: #fff;
+    border-radius: 8px;
+}
+.message_content .talk_wrap .talk{
+	padding: 20px;
+}
+
+.message_content2{
+
+	margin-bottom: 40px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+.avatar2{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	float: right;
+}
+.avatar2 img{
+	width: 100%;
+	height: 100%;
+}
+.message_content2 .talk_wrap2{
+	margin: 0 20px;
+	min-height: 80px;
+	max-width: 500px;
+	display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: right;
+    font-size: 28px;
+    background: #a9e979;
+    border-radius: 8px;
+    float: right;
+
+}
+.message_content2 .talk_wrap2 .talk2{
+	padding: 20px;
+}
+.talk2 span::after{
+	content:'';
+	border: 8px solid #ffffff00;
+	border-left: 8px solid #a9e979;
+	position: absolute;
+	top: 30px;
+	right: -16px;
+
+
+} 
